@@ -1,3 +1,4 @@
+import { AboutMe } from "./AboutMe";
 import { WelcomeSction } from "./WelcomeSection";
 
 export const Main = () => {
@@ -5,6 +6,7 @@ export const Main = () => {
     <>
       <main className="mx-4">
         <WelcomeSction />
+        <AboutMe />
       </main>
     </>
   );
