@@ -1,4 +1,5 @@
 import { AboutMe } from "./AboutMe";
+import { PastClients } from "./PastClients";
 import { WelcomeSction } from "./WelcomeSection";
 import { WhatAmDoin } from "./WhatAmDoin";
 
@@ -9,6 +10,7 @@ export const Main = () => {
         <WelcomeSction />
         <AboutMe />
         <WhatAmDoin />
+        <PastClients />
       </main>
     </>
   );
